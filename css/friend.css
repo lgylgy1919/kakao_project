@@ -1,0 +1,149 @@
+.chats {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.header_wrapper {
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  width: 100%;
+  padding: 5px 20px;
+  background-color: white;
+  box-shadow: 0 0px 5px 3px rgba(0, 0, 0, 0.1);
+  margin-left: -20px;
+}
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friend .friend__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 38%;
+}
+.friend__avatar.g-avatar {
+  width: 70px;
+  height: 70px;
+}
+.friend__avatar .m-avatar {
+  width: 60px;
+}
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+.two_people {
+  margin-right: 15px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.double_1 {
+  position: absolute;
+}
+.double_2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 2px solid white;
+  box-sizing: content-box;
+}
+.four_people {
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.friend__avatar_quadruple {
+  width: 24px;
+  height: 24px;
+  border-radius: 38%;
+}
+
+.friend__avatar_double {
+  width: 30px;
+  height: 30px;
+  border-radius: 38%;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 5px;
+}
+.fa-bell-slash {
+  font-size: 12px;
+  opacity: 0.4;
+}
+.memeber_number {
+  opacity: 0.4;
+}
+.badge {
+  font-size: 10px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 5px;
+  position: absolute;
+  right: 0;
+}
+.friend__content .friend__bottom-text,
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  opacity: 0.6;
+}
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
+}
+
+.friend .friend__now-listening {
+  border: 2px solid #52e084;
+  padding: 5px 10px;
+  border-radius: 13px;
+  font-size: 14px;
+}
+.friend__now-listening span {
+  opacity: 0.7;
+}
+.friend__now-listening i {
+  font-size: 12px;
+}
+.friend__add-btn {
+  display: flex;
+  padding: 10px 15px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.friend {
+  margin-bottom: 12px;
+}
+.friend__column .chat__timestamp {
+  font-size: 14px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.friend__column:nth-child(2) {
+  height: 50px;
+  padding-top: 5px;
+  display: block;
+  position: relative;
+}
+.chats__chat {
+  margin-bottom: 25px;
+}
